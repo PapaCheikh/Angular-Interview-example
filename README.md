@@ -29,16 +29,16 @@ Sa structure simplifiée permet aux développeur de maintenir facilement de gran
   *  NgRx
 
 - 9 .	Directives en angular : Vous pouvez modifier l'apparence, le comportement ou la disposition d'un élément DOM.
-  *  Attribut Directives
-  *  Structural Directives
-  *  Component Directives
+  *  Attribut Directives :  pour modifier le comportement ou l'apparence d'un élément. Exemples : ngClass, ngModel
+  *  Structural Directives : pour modifier la disposition ou la structure du DOM. Ces directives sont précédées d'un (*)
+  *  Component Directives : classes de TypeScript qui sont décorées avec @Component
 
 - 10 .	C’est quoi le data binding ?
 Aider le développeur à établir la communication entre le DOM et le composant.
-  *  Event binding
-  *  Property binding
-  *  String interpolation
-  *  Two-way data binding
+  *  Event binding : transmettre des informations spécifiques à un événement à la méthode avec ($event)
+  *  Property binding : définir une propriété de composant sur une valeur déterminée au moment de l'exécution
+  *  String interpolation : lier l'expression de modèle d'un composant à une propriété de la classe du composant. {{ }}
+  *  Two-way data binding : permet à la vue de se mettre à jour automatiquement lorsque le modèle change, et vice versa.
 
 - 11 .	C’est quoi Templates ?
 Sont écrits à l'aide de HTML qui inclut des attributs et des éléments spécifiques à Angular. Sont combinés avec les données des API web, pour offrir à l'utilisateur une vue dynamique.
